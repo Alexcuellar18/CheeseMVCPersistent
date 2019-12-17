@@ -10,12 +10,12 @@
     @foreach (var cheeseMenu in Model.Items)
     {
     <li>
-        @cheeseMenu.Cheese.Name <!-- this is suppose to look like cheeseMenu.Cheeses.Name-->
+        @cheeseMenu.Cheese.Name 
 
     </li>
     }
 </ul>
 <p>
-    <a asp-controller="Menu" asp-action="AddItem" asp-route-id=@Model.Menu.ID >ADD A CHEESE!</a> 
+    <a asp-controller="Menu" asp-action="AddItem" asp-route-id=@Model.Menu.ID >Add cheese!</a> 
 </p>
 

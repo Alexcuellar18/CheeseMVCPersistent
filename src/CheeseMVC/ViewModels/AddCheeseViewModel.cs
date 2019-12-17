@@ -14,7 +14,7 @@ namespace CheeseMVC.ViewModels
         [Display(Name = "Cheese Name")]
         public string Name { get; set; }
 
-        [Required(ErrorMessage = "You must give your cheese a description")]
+        [Required(ErrorMessage = "Please give your cheese a description")]
         public string Description { get; set; }
         [Required]
         [Display(Name ="Category")]
